@@ -1,0 +1,5 @@
+function append_highlight_js() {
+    wp_enqueue_script('highlightjs', "/wordpress/highlight/highlight.pack.js");
+    wp_enqueue_script('highlightjsload', get_stylesheet_directory_uri() . '/highlightjs_call.js');
+    wp_enqueue_style('highlightjs', "/wordpress/highlight/styles/atom-one-dark.css");
+}
