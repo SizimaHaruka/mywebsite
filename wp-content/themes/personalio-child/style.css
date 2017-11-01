@@ -1,0 +1,34 @@
+/*
+Theme Name: Personalio child
+Theme URI: http://anisbd.com/personalio-theme/
+Author: MD. Anisur Rahman Bhuyan
+Author URI: http://anisbd.com/
+Description: Personalio is a free WordPress theme for blog and portfolio. This theme is fully responsive and is built on customizer that enable you to configure the website with live preview. personalio is Cross browser compatible, SEO friendly, translation ready and is compatible with Jetpack and all other major plugins.
+template: personalio
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: personalio
+Tags: two-columns, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Personalio is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
+*/
+body { background: gray; }
+
+pre {
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+	padding: 0em;
+    margin-top: 0em;
+    margin-right: 0px;
+    margin-bottom: 1em;
+    margin-left: 0px;
+}
